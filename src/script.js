@@ -97,7 +97,7 @@ function find_nl_combos(rack, length) {
 }
 
 async function main() {
-    let file = await fetch("/csw19.txt");
+    let file = await fetch("csw19.txt");
     let text = await file.text();
     let words = text.split("\n");
 
